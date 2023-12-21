@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LibraryApp
 {
-    public partial class LoginForm : Form
+    public partial class UyeIslemleri : Form
     {
-        public LoginForm()
+        public UyeIslemleri()
         {
             InitializeComponent();
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

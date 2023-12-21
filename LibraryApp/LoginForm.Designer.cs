@@ -54,7 +54,6 @@
             this.btn_personel.TabIndex = 1;
             this.btn_personel.Text = "Personel Girişi İçin Tıklayınız";
             this.btn_personel.UseVisualStyleBackColor = true;
-          
             // 
             // btn_mudur
             // 
@@ -102,6 +101,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
