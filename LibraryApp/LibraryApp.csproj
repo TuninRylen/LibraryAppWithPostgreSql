@@ -58,6 +58,12 @@
     <Compile Include="KitapListele.Designer.cs">
       <DependentUpon>KitapListele.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapVer.Designer.cs">
+      <DependentUpon>KitapVer.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KitapListele.resx">
       <DependentUpon>KitapListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapVer.resx">
+      <DependentUpon>KitapVer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
