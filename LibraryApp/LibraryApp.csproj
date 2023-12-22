@@ -52,11 +52,23 @@
     <Compile Include="GorevliMenu.Designer.cs">
       <DependentUpon>GorevliMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapEkleVeSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEkleVeSil.Designer.cs">
+      <DependentUpon>KitapEkleVeSil.cs</DependentUpon>
+    </Compile>
     <Compile Include="KitapListele.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="KitapListele.Designer.cs">
       <DependentUpon>KitapListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapTeslimAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapTeslimAl.Designer.cs">
+      <DependentUpon>KitapTeslimAl.cs</DependentUpon>
     </Compile>
     <Compile Include="KitapVer.cs">
       <SubType>Form</SubType>
@@ -84,6 +96,12 @@
     <Compile Include="Objects\UserObjects\Gorevli.cs" />
     <Compile Include="Objects\UserObjects\Mudur.cs" />
     <Compile Include="Objects\UserObjects\Uye.cs" />
+    <Compile Include="OneriYap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneriYap.Designer.cs">
+      <DependentUpon>OneriYap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UyeIslemleri.cs">
@@ -95,14 +113,23 @@
     <EmbeddedResource Include="GorevliMenu.resx">
       <DependentUpon>GorevliMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KitapEkleVeSil.resx">
+      <DependentUpon>KitapEkleVeSil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KitapListele.resx">
       <DependentUpon>KitapListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapTeslimAl.resx">
+      <DependentUpon>KitapTeslimAl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KitapVer.resx">
       <DependentUpon>KitapVer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneriYap.resx">
+      <DependentUpon>OneriYap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

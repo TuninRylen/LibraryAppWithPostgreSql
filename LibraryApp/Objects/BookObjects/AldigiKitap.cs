@@ -14,6 +14,8 @@ namespace LibraryApp.Objects
 
         int kitapid { get; set; }
 
+        bool kitapteslimdurumu { get; set; }
+
         DateTime veristarihi { get; set; }
 
         DateTime teslimtarihi { get; set; }
